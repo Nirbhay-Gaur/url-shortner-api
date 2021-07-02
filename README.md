@@ -10,13 +10,12 @@ api.
 * `node` & it's package manager `npm`
 * `mongoDB` as a database
 
-## Intallation
+## Installation
 
-Inside the root directory of this api, install the required node modules using: `npm i`
+In the root directory, install the required node modules using: `npm i`
 
 ## Configuration
 
-URL shortner needs only one file to configure.<br>
 Create .env file inside root directory and append the following variables inside
 the file: 
 * URI_DB
@@ -30,5 +29,3 @@ $ echo "URI_DB={YOUR MONGODB URI}" >> .env
 $ echo "BASE={BASE URL/localhost} >> .env
 $ echo "PORT={PORT/3000} >> .env
 ```
-
-
