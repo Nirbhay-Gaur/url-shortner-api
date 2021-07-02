@@ -11,7 +11,7 @@ Router.post("/", async (req, res) => {
   const base = process.env.BASE;
 
   const urlId = shortid.generate();
-  if (utils.validateUrl(origUrl)) {
+  if (validateUrl(origUrl)) {
     try {
       let url = await Url.findOne({ origUrl });
       if (url) {
